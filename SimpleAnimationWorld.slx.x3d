@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile='Immersive' version='3.3' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.3.xsd'>
+<head>
+</head>
+<Scene>
+<Viewpoint DEF='MyView'  orientation='0 0 0 0' position='0 10 40'>
+</Viewpoint>
+<Transform DEF='Ball'  translation='0 20 0'>
+  <Shape>
+    <Appearance>
+      <Material>
+      </Material>
+    </Appearance>
+    <Sphere radius='1.5'>
+    </Sphere>
+  </Shape>
+</Transform>
+<SpotLight location='0 30 0'>
+</SpotLight>
+<Transform DEF='Floor' >
+  <Shape>
+    <Appearance>
+      <ImageTexture url='"*sl3dlib\\objects\\Textures\\General\\Brick_Red.png" '>
+      </ImageTexture>
+      <Material>
+      </Material>
+    </Appearance>
+    <Box size='20 0.1 20'>
+    </Box>
+  </Shape>
+</Transform>
+<Background groundAngle='0.9 1.5 1.57' groundColor='0.252873 0.6 0.142493 0.460204 0.82 0.100408 0.508337 0.7 0.615141 0.573314 0.656899 0.67' skyAngle='0.1 1.2 1.57' skyColor='0.959184 1 1 0.710144 0.833392 0.85 0.745714 0.87 0.87 0.60094 0.662637 0.69'>
+</Background>
+</Scene>
+</X3D>
