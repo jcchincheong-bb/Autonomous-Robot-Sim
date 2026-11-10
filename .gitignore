@@ -458,3 +458,5 @@ sfprj/
 # Cache folders (set via Simulink preferences)
 .SimulinkCache/
 .slbuild/
+
+*.lnk
