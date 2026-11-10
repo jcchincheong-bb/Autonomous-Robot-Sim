@@ -399,3 +399,62 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+/data
+/output
+
+# ---------- MATLAB ----------
+# Autosave and backup files
+*.asv
+*.m~
+*.autosave
+*.mlx.bak
+
+# Compiled MEX files
+*.mex*
+*.mexw64
+*.mexa64
+*.mexmaci64
+
+# MATLAB Coder / code generation output
+codegen/
+*.slxc
+
+# Package / toolbox build output
+*.mlappinstall
+*.mltbx
+*.mlpkginstall
+
+# Live Editor temp output
+*.mlx.tmp
+
+# Profiler and debug output
+*.mldatx.tmp
+
+# ---------- Simulink ----------
+# Simulation cache and generated code folders
+slprj/
+*_grt_rtw/
+*_ert_rtw/
+*_rtw/
+*_sfun*
+*_slxc*
+sfprj/
+*.slxc
+
+# Simulink autosave / restore files
+*.autosave
+*.slx.autosave
+*.slx.r20*
+*.mdl.autosave
+*.mdl.r20*
+*.slx.original
+*.mdl.original
+
+# Simulink Test / data inspector results
+*.mldatx
+*.mat
+
+# Cache folders (set via Simulink preferences)
+.SimulinkCache/
+.slbuild/
